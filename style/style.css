@@ -1,0 +1,248 @@
+* {
+    
+   font-family: 'Slabo 27px', serif;
+}
+
+p {
+    margin: 2%;
+} 
+
+.khtml {
+    
+    background-image: url('../Images/storebaelther.png');
+   background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250%;
+    width: 100%;
+}
+
+.hhtml {
+    
+    background-image: url('../Images/Vandogsol.png');
+   background-size: cover;
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 220%;
+}
+
+
+.fhtml {
+    
+    background-image: url('../Images/storebaelt_opt.jpg');
+   background-size: cover;
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+    
+.uhtml {
+    
+    background-image: url('../Images/Græsogvand.jpg');
+   background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+label {
+    font-size: 55px;
+    margin: 20px;
+    display: 700px;
+    width: -1%;
+    color: black;
+    position: absolute;
+    top: 1px;
+    right: 2%;
+    padding-right: 5%;
+
+
+}
+
+label {
+    cursor: default;
+}
+
+#toggle {
+    display: none;
+}
+
+#toggle:checked + .menu {
+    display: inline-block;
+}
+
+.menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    text-decoration: underline;
+
+}
+
+
+
+.menu ul li a {
+    text-decoration-line: none;
+    color: black;
+    
+}
+
+.menu ul li {
+    list-style-type: none;
+    text-align-last: center;
+}
+    
+
+.undervand {
+    width: 50%;
+}
+
+
+
+.logo { 
+width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.udstyrm {
+    
+    width: 30%;
+    float: left;
+}
+
+.udstyrmm {
+    
+    width: 30%;
+    float: left;
+}
+.db {
+    width: 100%;
+}
+
+.fisken {
+    width: 50%;
+}
+
+.hja {
+    
+    margin: 1%;
+}
+
+
+
+/* Fra tablet og op */
+@media (min-width: 780px){
+
+    label {
+        
+        display: none;
+        
+    }
+    
+    #toggle {
+        
+        display: none;
+    }
+    
+    .menu {
+        
+        display: block;
+        float: right;
+    }
+    
+ul {
+    
+display: block;
+    margin-left: auto;
+    margin-right: 9%;
+    list-style: none;
+
+}
+
+.logo { 
+width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ul li {
+    margin: 1%;
+    float: right;
+    width: 30%;
+    background-color: white;
+    line-height: 300%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+    .udstyrm {
+        height: 50%;
+        width: 50%;
+    }
+    .uv {
+        display: flex;
+        width: 90%;
+        height: 10%;
+    }
+    .uvj {
+            flex: ;
+        width: 100%;
+        margin-left: 3%;
+    }
+    .udstyrm {
+            flex: ;
+        width: 50%;
+        margin-left: 3%;
+        
+    }
+    
+    .udstyrmm {
+            flex: ;
+        width: 50%;
+        margin-left: 3%;
+        
+    }
+     .udstyrmm {
+        height: 30%;
+        width: 50%;
+    }
+    .hja {
+        width: 100%;
+    }
+    
+    .hvidstor {
+        color: white;
+    }
+  .htering {
+        display: flex;
+        width: 90%;
+        height: 10%;
+    }
+    
+    .fisken {
+        width: 30%;
+        height: 20%;
+    }
+    .liste {
+        flex: ; 
+        width: 100%;
+    }
+}
+    
+    
